@@ -1,0 +1,42 @@
+/*
+ * Light: kraft paper and stamp ink.
+ * Dark: carbon copy — the blue-black sheet under the original.
+ */
+:root {
+  --paper: #efe7d6;
+  --paper-deep: #e3d8c1;
+  --sheet: #faf6ec;
+  --ink: #1d1b16;
+  --ink-soft: #5d5747;
+  --rule: #1d1b16;
+  --rule-faint: rgba(29, 27, 22, 0.16);
+  --grain: rgba(29, 27, 22, 0.07);
+  --stamp: #c8361b;
+  --stamp-ink: #fff6ea;
+  --go: #1d6a4d;
+  --wait: #a86d12;
+
+  --font-display: 'Archivo', 'Arial Narrow', 'Helvetica Neue', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  --border: 1.5px solid var(--rule);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #11141a;
+    --paper-deep: #0b0d11;
+    --sheet: #191d25;
+    --ink: #ebe3d1;
+    --ink-soft: #a29a87;
+    --rule: #cfc6b2;
+    --rule-faint: rgba(235, 227, 209, 0.16);
+    --grain: rgba(235, 227, 209, 0.035);
+    --stamp: #ff6b4a;
+    --stamp-ink: #1a0905;
+    --go: #5fc79b;
+    --wait: #e6ad4c;
+    color-scheme: dark;
+  }
+}
